@@ -1,0 +1,6 @@
+/workspaces/SJTestJava/user-api/src/test/java/com/example/userapi/application/RegisterUserServiceTest.java
+/workspaces/SJTestJava/user-api/src/test/java/com/example/userapi/shared/PasswordEncoderTest.java
+/workspaces/SJTestJava/user-api/src/test/java/com/example/userapi/adapters/out/persistence/SpringDataUserRepositoryTest.java
+/workspaces/SJTestJava/user-api/src/test/java/com/example/userapi/shared/JwtUtilTest.java
+/workspaces/SJTestJava/user-api/src/test/java/com/example/userapi/adapters/in/web/UserControllerIntegrationTest.java
+/workspaces/SJTestJava/user-api/src/test/java/com/example/userapi/e2e/UserApiE2ETest.java

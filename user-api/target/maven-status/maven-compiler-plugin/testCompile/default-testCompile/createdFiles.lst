@@ -1,0 +1,6 @@
+com/example/userapi/shared/PasswordEncoderTest.class
+com/example/userapi/e2e/UserApiE2ETest.class
+com/example/userapi/adapters/out/persistence/SpringDataUserRepositoryTest.class
+com/example/userapi/shared/JwtUtilTest.class
+com/example/userapi/adapters/in/web/UserControllerIntegrationTest.class
+com/example/userapi/application/RegisterUserServiceTest.class

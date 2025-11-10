@@ -1,0 +1,21 @@
+email:
+  regex: "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+password:
+  regex: "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$"
+h2:
+  console:
+    enabled: true
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  secret: "your_jwt_secret"
+  expiration: 3600000 # 1 hour in milliseconds
+  issuer: "user-api"

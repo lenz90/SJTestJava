@@ -1,0 +1,15 @@
+#!/bin/sh
+# Maven wrapper script for Unix-based systems
+
+MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
+MVN_CMD="./mvnw"
+
+if [ -n "$MAVEN_OPTS" ]; then
+    export MAVEN_OPTS
+fi
+
+if [ -z "$1" ]; then
+    exec $MVN_CMD clean install
+else
+    exec $MVN_CMD "$@"
+fi

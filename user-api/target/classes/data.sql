@@ -1,0 +1,3 @@
+INSERT INTO users (id, name, email, password, created, modified, last_login, token, is_active) VALUES
+  ('11111111-1111-1111-1111-111111111111', 'John Doe', 'john.doe@example.com', '$2a$10$EIXZ...', '2025-01-01T00:00:00Z', '2025-01-01T00:00:00Z', NULL, NULL, TRUE),
+  ('22222222-2222-2222-2222-222222222222', 'Jane Smith', 'jane.smith@example.com', '$2a$10$EIXZ...', '2025-01-01T00:00:00Z', '2025-01-01T00:00:00Z', NULL, NULL, TRUE);
