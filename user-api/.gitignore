@@ -1,0 +1,46 @@
+# Maven / Java
+/target/
+/!.mvn/wrapper/maven-wrapper.jar
+
+# Build/test reports
+**/target/surefire-reports/
+**/target/failsafe-reports/
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# Classes / jars / binaries
+*.class
+*.jar
+*.war
+*.ear
+
+# OS
+.DS_Store
+Thumbs.db
+
+# H2 / DB files
+*.mv.db
+*.h2.db
+*.db
+
+# Coverage
+coverage/
+*.lcov
+
+# Environment / secrets
+.env
+*.env
+
+# Other
+node_modules/
+dist/
