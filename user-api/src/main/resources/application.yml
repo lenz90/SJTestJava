@@ -1,3 +1,5 @@
+server:
+  port: 8081
 email:
   regex: "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
 password:
@@ -5,17 +7,27 @@ password:
 h2:
   console:
     enabled: true
+    path: /h2-console
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
     username: sa
-    password:
+    password: 
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+  security:
+    user:
+      name: admin
+      password: admin123
 jwt:
-  secret: "your_jwt_secret"
-  expiration: 3600000 # 1 hour in milliseconds
-  issuer: "user-api"
+  secret: 223df3378305c61aaa8be66659904ef57f7ab537941a69454d76f241600740f3
+  expiration: 3600
+  #issuer: "user-api"
+logging:
+  level:
+    root: INFO
